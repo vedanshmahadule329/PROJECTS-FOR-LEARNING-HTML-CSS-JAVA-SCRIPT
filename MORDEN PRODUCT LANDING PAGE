@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Landing Page</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f5f5f5;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:#111;
+color:#fff;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+.hero{
+display:flex;
+justify-content:space-around;
+align-items:center;
+padding:70px 20px;
+flex-wrap:wrap;
+}
+
+.text{
+max-width:450px;
+}
+
+.text h1{
+font-size:45px;
+margin-bottom:20px;
+}
+
+.text p{
+margin-bottom:20px;
+color:#555;
+}
+
+button{
+padding:12px 25px;
+border:none;
+background:#ff5722;
+color:white;
+font-size:16px;
+cursor:pointer;
+border-radius:5px;
+}
+
+button:hover{
+background:#e64a19;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:15px;
+box-shadow:0 10px 20px rgba(0,0,0,.2);
+text-align:center;
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card img{
+width:250px;
+}
+
+.price{
+font-size:25px;
+color:#ff5722;
+margin:10px 0;
+}
+</style>
+
+</head>
+
+<body>
+
+<nav>
+<h2>TechStore</h2>
+
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Products</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</nav>
+
+<section class="hero">
+
+<div class="text">
+<h1>Wireless Headphones</h1>
+
+<p>Enjoy premium sound quality with stylish design and long battery life.</p>
+
+<button>Buy Now</button>
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500" alt="Headphone">
+
+<h2>Air Beats X</h2>
+
+<p class="price">₹4,999</p>
+
+<button>Add to Cart</button>
+
+</div>
+
+</section>
+
+</body>
+</html>
