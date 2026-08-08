@@ -1,0 +1,115 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vedansh | Developer Portfolio</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#0b0f19;color:#fff;line-height:1.6}
+nav{display:flex;justify-content:space-between;align-items:center;padding:22px 8%;border-bottom:1px solid #222}
+.logo{font-size:25px;font-weight:bold;color:#00d9ff}
+nav a{color:#ddd;text-decoration:none;margin-left:25px}
+nav a:hover{color:#00d9ff}
+
+.hero{min-height:90vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:40px 20px}
+.hero h1{font-size:55px;margin-bottom:15px}
+.hero h1 span{color:#00d9ff}
+.hero p{color:#aaa;font-size:18px;margin-bottom:30px}
+.btn{display:inline-block;background:#00d9ff;color:#071018;padding:12px 25px;border-radius:8px;text-decoration:none;font-weight:bold}
+
+section{padding:70px 8%;max-width:1100px;margin:auto}
+.title{text-align:center;font-size:35px;margin-bottom:40px}
+.title span{color:#00d9ff}
+
+.about{text-align:center;color:#bbb;max-width:700px;margin:auto}
+.skills,.projects{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:#121826;padding:25px;border:1px solid #222;border-radius:12px}
+.card h3{color:#00d9ff;margin-bottom:10px}
+.card p{color:#aaa}
+.contact{text-align:center}
+footer{text-align:center;padding:25px;color:#777;border-top:1px solid #222}
+
+@media(max-width:700px){
+nav{flex-direction:column;gap:15px}
+nav a{margin:0 8px}
+.hero h1{font-size:40px}
+.skills,.projects{grid-template-columns:1fr}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <div class="logo">VEDANSH P MAHADULE</div>
+  <div>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div>
+    <p>HELLO, I'M</p>
+    <h1>Vedansh <span>Mahadule</span></h1>
+    <p>Frontend Developer | C++ Programmer |C Progrmmer| AI | IOT | CLOUD | SQL & DATA SCIENCE | Web Enthusiast</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </div>
+</section>
+
+<section id="about">
+  <h2 class="title">About <span>Me</span></h2>
+  <p class="about">
+    I'm a passionate developer who loves building modern websites,
+    solving programming problems and learning new technologies.
+    I focus on creating clean, responsive and user-friendly experiences.
+  </p>
+</section>
+
+<section id="skills">
+  <h2 class="title">My <span>Skills</span></h2>
+  <div class="skills">
+    <div class="card"><h3>HTML</h3><p>Semantic and structured web pages.</p></div>
+    <div class="card"><h3>CSS</h3><p>Responsive and modern UI designs.</p></div>
+    <div class="card"><h3>C++</h3><p>DSA and problem solving.</p></div>
+     <div class="card"><h3>C</h3><p>problem solving.</p></div>
+     <div class="card"><h3>AI</h3><p>genretive AI  & agentive AI.</p></div>
+      <div class="card"><h3>IOT</h3><p>Internet of things.</p></div>
+       <div class="card"><h3>CLOUD</h3><p>Cloud & API & server.</p></div>
+        <div class="card"><h3>SQL & DATA SCIENCE</h3><p>SQL sheet & data manage .</p></div>
+
+
+
+
+
+  </div>
+</section>
+
+<section id="projects">
+  <h2 class="title">My <span>Projects</span></h2>
+  <div class="projects">
+    <div class="card"><h3>Digital Clock</h3><p>Clean and responsive digital clock project.</p></div>
+    <div class="card"><h3>Landing Page</h3><p>Modern responsive website landing page.</p></div>
+    <div class="card"><h3>Portfolio</h3><p>Personal developer portfolio website.</p></div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2 class="title">Let's <span>Connect</span></h2>
+  <p class="about">Have a project or idea? Let's build something amazing together.</p>
+  <br>
+  <a href="mailto:yourmail@gmail.com" class="btn">Contact Me</a>
+</section>
+
+<footer>
+  © 2026 Vedansh.dev | Built with HTML & CSS
+</footer>
+
+</body>
+</html>
+```
